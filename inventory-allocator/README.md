@@ -1,6 +1,9 @@
 Julia Guo
+
 Columbia University '22
+
 jzg2110@columbia.edu
+
 Submitted August 29, 2020
 
 ## Solution:
@@ -8,7 +11,9 @@ Submitted August 29, 2020
 All solution code is in `solution.py`.
 
 #### Contents:
-- `compute_shipment(order, warehouses):` Function to compute shipment. Takes in order (mapping of items to quantities) and warehouses (list of objects with name and inventory fields), formatted as described in the problem statement. Returns shipment formatted like `[{ name: { item: quantity }}, { name2: { item: quantity } }]`.
+- `compute_shipment(order, warehouses):` Function to compute shipment. 
+  - Takes in order (mapping of items to quantities) and warehouses (list of objects with name and inventory fields), formatted as described in the problem statement.
+  - Returns shipment formatted like `[{ warehouse1: { item: quantity }}, { warehouse2: { item: quantity } }]`.
 - 7 test cases: some from examples, some covering other cases.
 
 To run function on all test cases, simply run this command in `src` directory:
